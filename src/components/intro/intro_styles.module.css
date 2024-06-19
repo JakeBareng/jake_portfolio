@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.title {
+    margin: 0;
+    font-family: "Raleway";
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.66;
+}
+
+.title__name {
+    font-family: "Poesen_One";
+    /* italic */
+    font-style: italic;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.container > div {
+    display: flex;
+}
