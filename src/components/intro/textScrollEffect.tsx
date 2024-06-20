@@ -10,7 +10,8 @@ export default function TextScrollEffect() {
 
     return (
         <div className={styles.container}>
-            <div className={styles.container_text}>
+            <div className={styles.container_text}
+            >
                 {
                     texts.map((text, index) => (
                         <h3 key={index}>{text}</h3>
