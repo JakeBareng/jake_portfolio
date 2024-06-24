@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.title {
+    font-family: "Poetsen_One";
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+.container { 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+}

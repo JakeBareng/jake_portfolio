@@ -16,13 +16,13 @@
     align-items: baseline;
     background-color: rgb(241, 238, 253);
     border-radius: 50px;
-    box-shadow: -8px 8px 7px 0px rgb(0 0 0 / 24%);
+    box-shadow: -4px 3px 3px 0px rgb(0 0 0 / 12%);
 }
 
 .content_container_sub {
     background-color: rgb(245, 247, 253);
     border-radius: 40px;
-    padding: 10px;
+    padding: 15px;
 }
 
 
