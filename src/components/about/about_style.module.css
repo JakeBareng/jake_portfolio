@@ -1,0 +1,43 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: fit-content;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    align-items: baseline;
+    background-color: rgb(241, 238, 253);
+    border-radius: 50px;
+    box-shadow: -8px 8px 7px 0px rgb(0 0 0 / 24%);
+}
+
+.content_container_sub {
+    background-color: rgb(245, 247, 253);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+.title {
+    font-family: "Raleway";
+    font-size: 6rem;
+    width: 200px;
+    overflow-wrap: normal;
+    margin: 0;
+}
+
+.content {
+    font-family: "Public_Sans";
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 20px;
+    text-align: left;
+}

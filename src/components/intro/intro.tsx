@@ -5,7 +5,7 @@ import styles from "./intro_styles.module.css"
 
 export default function Intro() {
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <div>
                 <h3 className={styles.title}>Hi, I'm&nbsp;</h3>
                 <h3 className={styles.title__name}>Jake!</h3>
@@ -13,6 +13,6 @@ export default function Intro() {
             <TextScrollEffect />
             <Headshot />
             <ContactMeButn />
-        </div>
+        </section>
     )
 }
