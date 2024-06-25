@@ -1,0 +1,9 @@
+.container {
+    background-color: black;
+}
+
+.contact_form { 
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
