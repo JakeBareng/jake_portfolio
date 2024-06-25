@@ -1,4 +1,4 @@
-import { ValidationError, useForm } from "@formspree/react"
+import { useForm } from "@formspree/react"
 import { useState } from "react";
 import styles from './contact_style.module.css'
 
@@ -18,6 +18,7 @@ export default function Contact() {
     return (
         <section className={styles.container}>
             <form className={styles.contact_form} onSubmit={handleSubmit}>
+                <h1 className={styles.title}>Let&#39;s Connect!</h1>
                 <input placeholder="Your Name" type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
                 <input placeholder="name@email.com" type="email" name="email" />
                 <textarea placeholder="Your Message" name="message" />
