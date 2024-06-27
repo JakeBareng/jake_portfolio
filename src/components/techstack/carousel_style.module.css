@@ -1,0 +1,51 @@
+.section_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    /* size of primary */
+    width: 90%;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon
+{
+    width: 100px;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    animation: primary_scroll 10s linear infinite;
+}
+
+@keyframes primary_scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+    
+}
+
