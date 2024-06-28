@@ -1,26 +1,23 @@
 .container {
     height: fit-content;
-    margin-bottom: 50px;
-    margin-top: 100px;
 }
 .contact_form {
     margin: auto;
-    background-color: white;
+    background-color: var(--primary-color);
     display: flex;
+    width: var(--global-width);
     flex-direction: column;
-    width: 615px;
-    background-color: #2f2f2f;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: var(--global-border-radius);
+    padding: var(--global-padding);
 }
+
 
 .title {
     margin: 10px;
-    color: white;
+    color: var(--font-primary-color);
     font-family: "Public_Sans", sans-serif;
-    font-weight: 600;
-    font-size: 3em;
-    width: 10px;
+    font-weight: 100;
+    font-size: 2em;
 }
 
 input {
@@ -30,6 +27,7 @@ input {
     border: none;
     font-size: 1rem;
     font-family: "Raleway", sans-serif;
+    background-color: var(--secondary-color);
 }
 
 textarea {
@@ -41,6 +39,7 @@ textarea {
     border: none;
     font-family: "Raleway", sans-serif; 
     font-size: 1rem;
+    background-color: var(--secondary-color);
 }
 
 button {
@@ -48,8 +47,8 @@ button {
     padding: 20px;
     border-radius: 10px;
     border: none;
-    background-color: #f5f5f5;
-    color: #2f2f2f;
+    background-color: var(--secondary-color);
+    color: var(--font-primary-color);
     font-size: 20px;
     font-weight: 500;
     font-family: "Raleway", sans-serif;

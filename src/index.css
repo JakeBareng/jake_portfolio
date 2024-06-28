@@ -14,17 +14,29 @@
 }
 
 
+:root {
+    --font-primary-color: rgb(245 245 248);
+    --font-secondary-color: rgb(171 171 171);
+    --primary-color: rgb(13 13 13);
+    --secondary-color: rgb(65, 65, 65);
+    --global-box-shadow: -8px 8px 7px 0px rgb(0 0 0 / 24%);
+    --global-width: 90%;
+    --global-border-radius: 30px;
+    --global-padding: 20px;
+}
+
 h3,
 main,
 body {
     margin: 0;
-
 }
 
 html {
     scroll-behavior: smooth;
+    background: rgb(180, 180, 180);
 }
 
 section {
     height: 100vh;
 }
+

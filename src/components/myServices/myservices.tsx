@@ -19,27 +19,27 @@ export default function MyServices() {
         {
             img_url: web,
             title: "Web Development",
-            body: "Crafting dynamic digital experiences by designing and developing web applications."
+            body: "Creating dynamic digital experiences by designing and developing visually appealing and highly functional web applications. I use the latest technologies and best practices to ensure optimized performance, accessibility, and user engagement for each project."
         },
         {
             img_url: window_icon,
             title: "Software Development",
-            body: "Building software applications that are scalable, maintainable, and efficient."
+            body: "Building scalable, maintainable, and efficient software solutions tailored to specific business needs. My expertise in various programming languages and frameworks ensures robust applications with clean code and comprehensive testing for reliable performance."
         },
         {
             img_url: cloud,
             title: "Cloud Computing",
-            body: "Leveraging cloud services to deploy, manage, and scale applications."
+            body: "Leveraging cloud services to deploy, manage, and scale applications. Proficient in platforms like Amazon Web Service, and Google Cloud, I provide flexible, secure, and cost-efficient solutions for both migrating existing systems and building new cloud-native applications."
         },
         {
             img_url: database,
             title: "Database Management",
-            body: "Designing and managing databases to store, retrieve, and manipulate data."
+            body: "Expertly designing and managing databases for effective data storage, retrieval, and manipulation. With experience in SQL and NoSQL systems, I create optimized data structures, ensure data integrity, and enhance database performance for faster access and processing."
         },
         {
             img_url: headphone,
             title: "Customer Support",
-            body: "Providing technical support to customers to troubleshoot and resolve issues."
+            body: "Delivering top-notch technical support to troubleshoot and resolve issues efficiently. My approach includes clear communication, deep technical knowledge, and a commitment to customer satisfaction, ensuring smooth and reliable business operations."
         }
     ]
 

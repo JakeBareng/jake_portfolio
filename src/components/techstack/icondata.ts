@@ -11,14 +11,54 @@ import angular_icon from "/logos/angular_icon.png"
 
 
 export const icon_data = [
-    aws_icon,
-    html_css_icon,
-    javascript_icon,
-    mongodb_icon,
-    nextjs_icon,
-    node_icon,
-    npm_icon,
-    postgresql_icon,
-    react_icon,
-    angular_icon
+    {
+        icon: aws_icon,
+        alt: "AWS",
+        title: "AWS"
+    },
+    {
+        icon: html_css_icon,
+        alt: "HTML CSS",
+        title: "HTML CSS"
+    },
+    {
+        icon: javascript_icon,
+        alt: "JavaScript",
+        title: "javascript"
+    },
+    {
+        icon: mongodb_icon,
+        alt: "MongoDB",
+        title: "mongodb"
+    },
+    {
+        icon: nextjs_icon,
+        alt: "Next.js",
+        title: "next.js"
+    },
+    {
+        icon: node_icon,
+        alt: "Node.js",
+        title: "node.js"
+    },
+    {
+        icon: npm_icon,
+        alt: "npm",
+        title: "npm"
+    },
+    {
+        icon: postgresql_icon,
+        alt: "PostgreSQL",
+        title: "postgresql"
+    },
+    {
+        icon: react_icon,
+        alt: "React",
+        title: "react"
+    },
+    {
+        icon: angular_icon,
+        alt: "Angular",
+        title: "angular"
+    }
 ]

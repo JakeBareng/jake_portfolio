@@ -4,14 +4,15 @@ import styles from "./carousel_style.module.css"
 export default function TechStack() {
     return (
         <section className={styles.section_container}>
-            <h3 className={styles.title}>My Toolkit</h3>
+            <h3 className={styles.title}>Tools and Technology I Use</h3>
             <div className={styles.container}>
                 <div className={styles.list}>
                     {
-                        icon_data.map((icon, index) => {
+                        icon_data.map((item, index) => {
                             return (
                                 <div key={index} className={styles.icon_container}>
-                                    <img src={icon} alt="icon" className={styles.icon} />
+                                    <img src={item.icon} alt={item.alt} className={styles.icon} />
+                                    <p className={styles.icon_title}>{item.title}</p>
                                 </div>
                             )
                         })
@@ -19,10 +20,11 @@ export default function TechStack() {
                 </div>
                 <div className={styles.list}>
                     {
-                        icon_data.map((icon, index) => {
+                        icon_data.map((item, index) => {
                             return (
                                 <div key={index} className={styles.icon_container}>
-                                    <img src={icon} alt="icon" className={styles.icon} />
+                                    <img src={item.icon} alt={item.alt} className={styles.icon} />
+                                    <p className={styles.icon_title}>{item.title}</p>
                                 </div>
                             )
                         })
@@ -30,10 +32,11 @@ export default function TechStack() {
                 </div>
                 <div className={styles.list}>
                     {
-                        icon_data.map((icon, index) => {
+                        icon_data.map((item, index) => {
                             return (
                                 <div key={index} className={styles.icon_container}>
-                                    <img src={icon} alt="icon" className={styles.icon} />
+                                    <img src={item.icon} alt={item.alt} className={styles.icon} />
+                                    <p className={styles.icon_title}>{item.title}</p>
                                 </div>
                             )
                         })

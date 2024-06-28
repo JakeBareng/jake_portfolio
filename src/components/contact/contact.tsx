@@ -18,7 +18,7 @@ export default function Contact() {
     return (
         <section id="contact" className={styles.container}>
             <form className={styles.contact_form} onSubmit={handleSubmit}>
-                <h1 className={styles.title}>Let&#39;s Connect!</h1>
+                <h1 className={styles.title}>Get in Touch and Let&#39;s Innovate Together!</h1>
                 <input placeholder="Your Name" type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
                 <input placeholder="name@email.com" type="email" name="email" />
                 <textarea placeholder="Your Message" name="message" />

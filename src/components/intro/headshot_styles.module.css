@@ -4,7 +4,7 @@
     height: 300px;
     overflow: hidden;
     display: flex;
-    background-color: rgb(74, 86, 255);
+    background-color: var(); 
     border-radius: 50px;
     box-shadow: -8px 8px 7px 0px rgb(0 0 0 / 24%);
 }
