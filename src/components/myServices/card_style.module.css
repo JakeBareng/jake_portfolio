@@ -39,7 +39,7 @@
 
 .title {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 100;
     font-family: "Public_Sans";
     color: var(--font-primary-color);
 }

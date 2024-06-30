@@ -46,7 +46,7 @@ export default function MyServices() {
 
     return (
         <section id="myservices" className={styles.section}>
-            <h3 className={styles.title}>My Services</h3>
+            <h3 className={styles.title}>Services</h3>
             <div className={styles.container}>
                 {
                     services_list.map((data, index) => {

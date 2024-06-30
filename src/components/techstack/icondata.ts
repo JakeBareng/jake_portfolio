@@ -10,9 +10,15 @@ import react_icon from "/logos/react_icon.svg"
 import angular_icon from "/logos/angular_icon.png"
 import typescript_icon from "/logos/typescript_icon.png"
 import tailwind_icon from "/logos/tailwind_icon.png"
+import firebase_icon from "/logos/firebase_icon.png"
 
 
 export const icon_data = [
+    {
+        icon: firebase_icon,
+        alt: "Firebase",
+        title: "Firebase"
+    },
     {
         icon: tailwind_icon,
         alt: "Tailwind",
