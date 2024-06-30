@@ -1,8 +1,5 @@
 .container {
     padding: 30px;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
     width: var(--global-width);
     border-radius: 20px;
     background-color: var(--primary-color);
@@ -33,6 +30,13 @@
     width: 30px;
 }
 
+.heading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
 .title {
     font-size: 2rem;
     font-weight: 300;
@@ -43,5 +47,5 @@
 .body {
     font-size: 1.2rem;
     color: var(--font-secondary-color);
-    font-family: "Raleway";
+    font-family: "Public_Sans";
 }

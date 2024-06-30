@@ -5,8 +5,11 @@ export default function TextScrollEffect() {
     const texts = [
         "HTML5/CSS3",
         "JavaScript",
-        "React",
+        "React.js",
         "Web Developer",
+        "Full Stack Developer",
+        "Frontend Developer",
+        "Backend Developer",
         "Typescript",
         "Angular",
         "Node.js",
@@ -14,6 +17,9 @@ export default function TextScrollEffect() {
         "MongoDB",
         "PostgreSQL",
         "Python",
+        "Next.js",
+        "Java",
+        "Spring Boot",
     ]
 
     function shuffleArray(array: number[]) {
@@ -44,7 +50,7 @@ export default function TextScrollEffect() {
                 index = 0
                 shuffleArray(traversePath)
             }
-        }, 1700)
+        }, 1400)
 
         return () => clearInterval(timer)
     }, [])

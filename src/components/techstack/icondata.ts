@@ -8,9 +8,21 @@ import npm_icon from "/logos/npm_icon.png"
 import postgresql_icon from "/logos/postgresql_icon.svg"
 import react_icon from "/logos/react_icon.svg"
 import angular_icon from "/logos/angular_icon.png"
+import typescript_icon from "/logos/typescript_icon.png"
+import tailwind_icon from "/logos/tailwind_icon.png"
 
 
 export const icon_data = [
+    {
+        icon: tailwind_icon,
+        alt: "Tailwind",
+        title: "Tailwind"
+    },
+    {
+        icon: typescript_icon,
+        alt: "TypeScript",
+        title: "TypeScript"
+    },
     {
         icon: aws_icon,
         alt: "AWS",

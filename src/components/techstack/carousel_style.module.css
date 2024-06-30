@@ -3,30 +3,32 @@
     height: fit-content;
     background-color: var(--primary-color);
     width: var(--global-width);
-    margin: auto;
     padding: var(--global-padding);
     border-radius: var(--global-border-radius);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     box-shadow: var(--global-box-shadow);
 }
 
 .title {
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 2.25rem;
+    font-weight: 100;
     font-family: "Raleway", sans-serif;
     color: var(--font-primary-color);
 }
 
 .container {
     /* size of primary */
-    width: 70%;
+    width: var(--global-width);
+    background-color: var(--secondary-color);
+    border-radius: var(--global-border-radius);
     max-width: 80%;
     display: flex;
     overflow: hidden;
     margin: auto;
-    gap: 10px;
+    gap: 30px;
+    padding: var(--global-padding);
 }
 
 .icon_container {
@@ -53,7 +55,7 @@
 
 .list {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     position: relative;
     animation: primary_scroll 10s linear infinite;
 }

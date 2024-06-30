@@ -1,6 +1,6 @@
 .container {
     overflow: hidden;
-    width: 400px;
+    width: fit-content;
     height: 42px;
 }
 

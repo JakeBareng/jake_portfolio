@@ -45,7 +45,7 @@ export default function MyServices() {
 
 
     return (
-        <section className={styles.section}>
+        <section id="myservices" className={styles.section}>
             <h3 className={styles.title}>My Services</h3>
             <div className={styles.container}>
                 {

@@ -9,6 +9,7 @@
     flex-direction: column;
     border-radius: var(--global-border-radius);
     padding: var(--global-padding);
+    box-shadow: var(--global-box-shadow);
 }
 
 
@@ -16,8 +17,8 @@
     margin: 10px;
     color: var(--font-primary-color);
     font-family: "Public_Sans", sans-serif;
-    font-weight: 100;
-    font-size: 2em;
+    font-weight: 300;
+    font-size: 1.5em;
 }
 
 input {

@@ -4,10 +4,12 @@ import About from './components/about/about'
 import MyServices from './components/myServices/myservices'
 import Contact from './components/contact/contact'
 import TechStack from './components/techstack/techstack'
+import Navbar from './components/navbar/navbar'
 
 function App() {
   return (
     <main>
+      <Navbar/>
       <Intro/>
       <About/>
       <TechStack/> 

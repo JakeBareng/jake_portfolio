@@ -10,10 +10,12 @@ export default function Card({ data }: cartProps) {
 
     return (
         <div className={styles.container}>
-            <div className={styles.img_container}>
-                <img src={img_url} alt={title} className={styles.img} />
+            <div className={styles.heading}>
+                <div className={styles.img_container}>
+                    <img src={img_url} alt={title} className={styles.img} />
+                </div>
+                <h2 className={styles.title}>{title}</h2>
             </div>
-            <h2 className={styles.title}>{title}</h2>
             <p className={styles.body}>{body}</p>
         </div>
     )

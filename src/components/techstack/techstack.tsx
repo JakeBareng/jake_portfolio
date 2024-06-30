@@ -3,7 +3,7 @@ import styles from "./carousel_style.module.css"
 
 export default function TechStack() {
     return (
-        <section className={styles.section_container}>
+        <section id="techstack" className={styles.section_container}>
             <h3 className={styles.title}>Tools and Technology I Use</h3>
             <div className={styles.container}>
                 <div className={styles.list}>
