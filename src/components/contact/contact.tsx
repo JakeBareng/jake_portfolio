@@ -21,6 +21,7 @@ export default function Contact() {
                 <h1 className={styles.title}>Send Me A Message!</h1>
                 <input placeholder="Your Name" type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
                 <input placeholder="name@email.com" type="email" name="email" />
+                <input placeholder="Your Business" type="text" name="business" />
                 <textarea placeholder="Your Message" name="message" />
                 <button type="submit" disabled={state.submitting}>
                     Send Message

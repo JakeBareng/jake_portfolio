@@ -20,10 +20,9 @@
 
 .container {
     /* size of primary */
-    width: var(--global-width);
+    width: 90%;
     background-color: var(--secondary-color);
     border-radius: var(--global-border-radius);
-    max-width: 80%;
     display: flex;
     overflow: hidden;
     margin: auto;

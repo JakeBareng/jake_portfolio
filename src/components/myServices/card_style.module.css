@@ -1,17 +1,18 @@
 .container {
-    padding: 30px;
-    width: var(--global-width);
-    border-radius: 20px;
-    background-color: var(--primary-color);
-    border: 1px solid #e0e0e0;
-    box-shadow: -1px 2px 4px 0px rgb(0 0 0 / 9%);
-
+    padding: var(--global-padding);
+    border-radius: var(--global-border-radius);
+    background-color: var(--secondary-color);
+    box-shadow: var(--global-box-shadow);
+    width: 90%;
+    margin: auto;
+    margin-bottom: 12px;
 }
 
 @media screen and (max-width: 768px){
     .container {
         padding: 20px;
-        width: 90%;
+        width: var(--global-width);
+        height: fit-content;
     } 
 }
 
@@ -19,15 +20,15 @@
     width: 60px;
     height: 60px;
     background-color: black;
-    border-radius: 10px;
+    border-radius: var(--global-border-radius);
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: var(--global-box-shadow);
 }
 
 .img {
     width: 30px;
+    height: 30px;
 }
 
 .heading {
@@ -35,13 +36,15 @@
     justify-content: start;
     align-items: center;
     gap: 10px;
+    width: 100%;
 }
 
 .title {
-    font-size: 2rem;
+    font-size: xx-large;
     font-weight: 100;
     font-family: "Public_Sans";
     color: var(--font-primary-color);
+    width: 50%;
 }
 
 .body {

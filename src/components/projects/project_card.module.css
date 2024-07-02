@@ -1,0 +1,36 @@
+.container {
+    padding: var(--global-padding);
+    border-radius: var(--global-border-radius);
+    background-color: var(--secondary-color);
+    box-shadow: var(--global-box-shadow);
+    width: 300px;
+    height: 400px;
+}
+
+.card_img {
+    height: 70%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card_title {
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: "Public_Sans";
+    color: var(--font-primary-color);
+    margin: 0;
+    width: 50%;
+}
+
+.card_body {
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--font-secondary-color);
+    font-family: "Public_Sans";
+}

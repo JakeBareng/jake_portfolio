@@ -1,0 +1,25 @@
+.container {
+    width: var(--global-width);
+    background-color: var(--primary-color);
+    padding: var(--global-padding);
+    border-radius: var(--global-border-radius);
+    box-shadow: var(--global-box-shadow);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_list{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.title {
+    font-family: "Raleway";
+    font-weight: 100;
+    font-size: 3rem;
+    color: var(--font-primary-color);
+}

@@ -23,15 +23,15 @@ export default function TextScrollEffect() {
     ]
 
     function shuffleArray(array: number[]) {
-        for (var i = array.length - 1; i > 0; i--) {
-            var j = Math.floor(Math.random() * (i + 1));
-            var temp = array[i];
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = array[i];
             array[i] = array[j];
             array[j] = temp;
         }
     }
 
-    let traversePath: number[] = []
+    const traversePath: number[] = []
     for (let i = 0; i < texts.length; i++) {
         traversePath.push(i)
     }
@@ -40,10 +40,10 @@ export default function TextScrollEffect() {
     // timer 
     useEffect(() => {
         const textContainer = document.getElementById("textContainer")!
-        let textHeight = 42
+        const textHeight = 42
         let index = 0
         const timer = setInterval(() => {
-            let y = textHeight * traversePath[index]
+            const y = textHeight * traversePath[index]
             textContainer.style.transform = `translateY(-${y}px)`
             index++
             if (index === texts.length) {
@@ -53,7 +53,7 @@ export default function TextScrollEffect() {
         }, 1400)
 
         return () => clearInterval(timer)
-    }, [])
+    })
 
     return (
         <div className={styles.container}>

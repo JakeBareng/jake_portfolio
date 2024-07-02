@@ -5,6 +5,7 @@ import MyServices from './components/myServices/myservices'
 import Contact from './components/contact/contact'
 import TechStack from './components/techstack/techstack'
 import Navbar from './components/navbar/navbar'
+import Projects from './components/projects/projects'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <About/>
       <TechStack/> 
       <MyServices/>
-      {/* <Projects/> */}
+      <Projects/>
       <Contact/>
      
     </main>

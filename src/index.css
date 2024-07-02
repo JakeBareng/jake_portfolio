@@ -17,12 +17,20 @@
 :root {
     --font-primary-color: rgb(245 245 248);
     --font-secondary-color: rgb(171 171 171);
-    --primary-color: rgb(13 13 13);
+    --primary-color: rgb(29, 29, 29);
     --secondary-color: rgb(59, 59, 59);
     --global-box-shadow: -4px 4px 6px 0px rgb(0 0 0 / 14%);
     --global-width: 90%;
     --global-border-radius: 20px;
     --global-padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        --global-width: 70%;
+        --global-padding: 20px;
+    }
+
 }
 
 h3,
@@ -38,7 +46,7 @@ html {
 }
 
 main {
-    background: rgb(194, 202, 206);
+    background: rgb(255, 255, 255);
     padding: 15px;
     padding-top: 0;
 }
@@ -52,4 +60,3 @@ section {
     margin: auto;
     margin-bottom: 15px;
 }
-
