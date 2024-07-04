@@ -6,7 +6,7 @@
     display: flex;
     background-color: var(); 
     border-radius: 50px;
-    box-shadow: -8px 8px 7px 0px rgb(0 0 0 / 24%);
+    box-shadow: 0 0 5px 1px rgb(0 0 0 / 24%);
 }
 
 .container img {
@@ -21,7 +21,6 @@
     animation-name: headshotScroll;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    /* Timing function set to linear for smooth transitions */
     animation-direction: alternate-reverse;
     position: relative;
     display: flex;

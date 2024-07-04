@@ -1,19 +1,24 @@
+import project1 from "/project_images/project1.png"
+import project2 from "/project_images/project2.png"
 
 export type ProjectType = {
     img_url: string,
     title: string,
-    body: string
+    body: string,
+    link: string
 }
 
 export const projects: ProjectType[]  = [
     {
-        img_url: "https://placehold.co/600x400?text=Hello+1",
-        title: "Project 1",
-        body: "This is a project"
+        img_url: project1,
+        title: "Music Producer Website",
+        body: "A music producer website with a 3D reactive visualizer. Built with Next.js, Tailwind CSS, vercel, and three.js.",
+        link: "https://jakebeats.vercel.app/"
     },
     {
-        img_url: "https://placehold.co/600x400?text=Hello+2",
-        title: "Project 2",
-        body: "This is a project"
+        img_url: project2,
+        title: "Chatroom App",
+        body: "A chatroom app built with React, Firebase, and bootstrap.",
+        link: "https://greenchatchannel.web.app/"
     },
 ]

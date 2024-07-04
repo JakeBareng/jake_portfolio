@@ -4,7 +4,7 @@ import style from "./projects.module.css"
 
 export default function Projects() {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="projects">
             <h1 className={style.title}>Projects</h1>
             <div className={style.card_list}>
                 {

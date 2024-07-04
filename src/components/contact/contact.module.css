@@ -1,0 +1,16 @@
+
+
+.container {
+    display: flex;
+    margin: auto;
+    width: calc(var(--global-width) + var(--global-padding) * 2);
+    gap: var(--global-padding);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+}

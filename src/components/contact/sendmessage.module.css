@@ -1,11 +1,12 @@
 .container {
+    width: 50%;
     height: fit-content;
 }
+
 .contact_form {
     margin: auto;
     background-color: var(--primary-color);
     display: flex;
-    width: var(--global-width);
     flex-direction: column;
     border-radius: var(--global-border-radius);
     padding: var(--global-padding);
@@ -17,8 +18,8 @@
     margin: 10px;
     color: var(--font-primary-color);
     font-family: "Public_Sans", sans-serif;
-    font-weight: 300;
-    font-size: 1.5em;
+    font-weight: 100;
+    font-size: 2em;
 }
 
 input {
@@ -54,4 +55,10 @@ button {
     font-weight: 500;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
 }

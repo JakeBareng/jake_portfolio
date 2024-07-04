@@ -2,11 +2,9 @@
     width: 80%;
     margin: auto;
     background-color: var(--primary-color);
-    position: relative;
     border-radius: var(--global-border-radius);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    box-shadow: var(--global-box-shadow);
     padding: 10px;
 }
 
@@ -31,4 +29,11 @@ li {
 a {
     text-decoration: none;
     color: var(--font-primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 86%;
+    }
+    
 }

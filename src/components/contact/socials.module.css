@@ -1,0 +1,38 @@
+.container {
+    width: 45%;
+    background-color: var(--primary-color);
+    border-radius: var(--global-border-radius);
+    padding: var(--global-padding);
+    box-shadow: var(--global-box-shadow);
+    height: fit-content;
+    margin: 0;
+}
+
+.title {
+    margin: 10px;
+    margin-top: 0;
+    color: var(--font-primary-color);
+    font-family: "Public_Sans", sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.socials_list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.socials_item {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    color: var(--font-primary-color);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: calc(100% - var(--global-padding) * 2);
+    }
+}
