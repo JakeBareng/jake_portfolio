@@ -2,6 +2,7 @@ import headshot1 from '../../assets/headshot_1.png';
 import headshot2 from '../../assets/headshot_2.png';
 import headshot3 from '../../assets/headshot_3.png';
 import styles from "./headshot_styles.module.css"
+import { motion } from "framer-motion"
 
 export default function Headshot() {
     const images = [
@@ -11,14 +12,43 @@ export default function Headshot() {
     ]
 
     return (
-        <div className={styles.container}>
-            <div className={styles.img_collection}>
+        <motion.div
+            transition={{
+                type: "spring",
+                duration: 1
+            }}
+            whileHover={
+                {
+                    scale: 1.1,
+                    transition: {
+                        duration: 0.3,
+                        type: "spring",
+                    },
+
+                }
+            }
+            className={styles.container}>
+
+            <motion.div
+                animate={{
+                    opacity: 1,
+                    x: [0,-250,-500] 
+                }}
+                transition={{
+                    duration: 6,
+                    repeat: Infinity,
+                    type: "linear",
+                    repeatType: "reverse",
+                    delay: 1,
+                    repeatDelay: 1
+                }} 
+            className={styles.img_collection}>
                 {
                     images.map((image, index) => (
                         <img className={styles.headshot} key={index} src={image} alt="headshot" />
                     ))
                 }
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
     )
 }
