@@ -29,6 +29,7 @@
     overflow: hidden;
     margin: auto;
     gap: 30px;
+    padding: var(--global-padding);
 }
 
 .icon_container {

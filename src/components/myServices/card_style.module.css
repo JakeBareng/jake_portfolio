@@ -2,7 +2,6 @@
     border-radius: var(--global-border-radius);
     background-color: var(--secondary-color);
     box-shadow: var(--global-box-shadow);
-    width: var(--global-width);
     margin: auto;
 }
 

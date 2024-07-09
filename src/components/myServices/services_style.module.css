@@ -24,6 +24,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    padding: var(--global-padding);
     padding-bottom: var(--global-padding);
 }
 
