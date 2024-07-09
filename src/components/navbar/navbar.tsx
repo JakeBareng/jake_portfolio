@@ -1,5 +1,5 @@
 import styles from './navbar_style.module.css';
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
 
@@ -17,7 +17,7 @@ export default function Navbar() {
                 y: 0,
                 opacity: 1
             }}
-            
+
             className={styles.container}>
             <ul>
                 <li><a href="#about">About</a></li>
