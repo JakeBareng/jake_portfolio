@@ -13,7 +13,7 @@
         padding: 20px;
         width: var(--global-width);
         height: fit-content;
-        margin: 0;
+        margin: 0 auto;
     } 
 }
 
