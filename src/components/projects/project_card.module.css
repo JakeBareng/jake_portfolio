@@ -31,6 +31,9 @@ a {
 .content {
     padding: var(--global-padding);
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card_title {
@@ -46,6 +49,20 @@ a {
     margin: 0;
     color: var(--font-secondary-color);
     font-family: "Public_Sans";
+}
+.tag_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.tag {
+    font-family: "Raleway";
+    font-size: .8rem;
+    background-color: var(--primary-color);
+    padding: 0.4rem;
+    border-radius: var(--global-border-radius);
+    color: var(--font-primary-color);
 }
 
 @media screen and (max-width: 768px) {

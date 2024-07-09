@@ -39,20 +39,16 @@ body {
     margin: 0;
 }
 
-main,
-body,
 html {
     scroll-behavior: smooth;
 }
 
-main {
-    background: rgb(255, 255, 255);
-    padding: 15px;
-    padding-top: 0;
-}
-
+main,
 html {
-    background-color: var(--primary-color);
+    background: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 section {

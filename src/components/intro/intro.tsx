@@ -42,12 +42,11 @@ export default function Intro() {
                         className={styles.title}>Hi, I'm&nbsp;</motion.h3>
                     <motion.h3
                         animate={{
-                            y: isTextHover ? [0, -30, 0, -20, 0] : 0,
+                            y: isTextHover ? -30 : 0,
                         }}
                         transition={{
-                            duration: 1,
-                            repeat: isTextHover ? Infinity : 0,
-                            repeatType: "loop",
+                            duration: .5,
+                            type: "spring",
                         }}
                         className={styles.title__name}>Jake!</motion.h3>
                 </motion.div>

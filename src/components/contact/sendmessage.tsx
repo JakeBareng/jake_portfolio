@@ -1,6 +1,7 @@
 import { ValidationError, useForm } from "@formspree/react"
 import { useState } from "react";
 import styles from './sendmessage.module.css'
+import { motion } from 'framer-motion'
 
 export default function SendMessage() {
     const [state, handleSubmit] = useForm(`${import.meta.env.VITE_FORMSPREE_ID}`);
@@ -8,7 +9,21 @@ export default function SendMessage() {
 
     return (
         <section className={styles.container}>
-            <form className={styles.contact_form} onSubmit={handleSubmit}>
+            <motion.form
+                initial={{
+                    opacity: 0,
+                    y: -100
+                }}
+                animate={{
+                    opacity: 1,
+                    y: 0
+                }}
+                whileInView={{
+                    y: 0,
+                    opacity: 1
+                }}
+                id="sendmessage"
+                className={styles.contact_form} onSubmit={handleSubmit}>
                 {
                     state.succeeded ?
                         <>
@@ -36,7 +51,7 @@ export default function SendMessage() {
                             </button>
                         </>
                 }
-            </form>
+            </motion.form>
         </section>
     )
 }

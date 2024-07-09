@@ -1,11 +1,10 @@
 .container {
+    padding: 30px;
     width: 80%;
-    margin: auto;
-    background-color: var(--primary-color);
-    border-radius: var(--global-border-radius);
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    padding: 10px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 ul {
@@ -20,7 +19,6 @@ ul {
 
 li {
     font-family: "Public_Sans";
-    color: var(--font-primary-color);
     font-style: none;
     font-size: 1rem;
     font-weight: 200;
@@ -28,7 +26,7 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--font-primary-color);
+    color: black;
 }
 
 @media screen and (max-width: 768px) {

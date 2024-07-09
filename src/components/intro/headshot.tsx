@@ -32,10 +32,10 @@ export default function Headshot() {
             <motion.div
                 animate={{
                     opacity: 1,
-                    x: [0,-250,-500] 
+                    x: [0,"-100%", "-200%"], 
                 }}
                 transition={{
-                    duration: 6,
+                    duration: 4,
                     repeat: Infinity,
                     type: "linear",
                     repeatType: "reverse",

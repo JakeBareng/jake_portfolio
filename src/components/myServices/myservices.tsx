@@ -5,6 +5,7 @@ import headphone from "/headphone.svg"
 import window_icon from "/window.svg"
 import web from "/web.svg"
 import Card from "./card"
+import { motion } from "framer-motion"
 
 export type MyServicesProps = {
     img_url: string,
@@ -42,17 +43,67 @@ export default function MyServices() {
         }
     ]
 
+    const container = {
+        hidden: { opacity: 1, scale: 0 },
+        visible: {
+            opacity: 1,
+            scale: 1,
+            transition: {
+                delayChildren: 0.3,
+                staggerChildren: 0.1
+            }
+        }
+    };
+
+    const item = {
+        hidden: { y: 20, opacity: 0 },
+        visible: {
+            y: 0,
+            opacity: 1
+        }
+    };
+
 
     return (
-        <section id="myservices" className={styles.section}>
+        <motion.section
+            initial={{
+                opacity: 0,
+                y: -100
+            }}
+            transition={{
+                delay: 0.5,
+            }}
+            whileInView={{
+                y: 0,
+                opacity: 1
+            }}
+            viewport={{ once: true }}
+
+            id="myservices" className={styles.section}>
+
             <h3 className={styles.title}>Services</h3>
-            <div className={styles.container}>
+
+            <motion.div
+                variants={container}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                className={styles.container}
+            >
                 {
                     services_list.map((data, index) => {
-                        return <Card data={data} key={index} />
+                        return (
+                            <motion.div
+                                variants={item}
+                                key={index}
+                                className={styles.card}
+                            >
+                                <Card data={data} key={index} />
+                            </motion.div>
+                        )
                     })
                 }
-            </div>
-        </section>
+            </motion.div>
+        </motion.section>
     )
 }

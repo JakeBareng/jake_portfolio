@@ -3,24 +3,33 @@ import styles from "./textScrollEffect.module.css"
 
 export default function TextScrollEffect() {
     const texts = [
-        "HTML5/CSS3",
-        "JavaScript",
-        "React.js",
-        "Web Developer",
-        "Full Stack Developer",
-        "Frontend Developer",
-        "Backend Developer",
-        "Typescript",
-        "Angular",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "PostgreSQL",
-        "Python",
-        "Next.js",
-        "Java",
-        "Spring Boot",
+        "web developer",
+        "full stack developer",
+        "frontend developer",
+        "backend developer",
+        "software engineer",
+        "computer science student",
     ]
+
+    // const texts = [
+    //     "HTML5/CSS3",
+    //     "JavaScript",
+    //     "React.js",
+    //     "Web Developer",
+    //     "Full Stack Developer",
+    //     "Frontend Developer",
+    //     "Backend Developer",
+    //     "Typescript",
+    //     "Angular",
+    //     "Node.js",
+    //     "Express.js",
+    //     "MongoDB",
+    //     "PostgreSQL",
+    //     "Python",
+    //     "Next.js",
+    //     "Java",
+    //     "Spring Boot",
+    // ]
 
     function shuffleArray(array: number[]) {
         for (let i = array.length - 1; i > 0; i--) {
