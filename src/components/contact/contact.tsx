@@ -4,7 +4,7 @@ import styles from './contact.module.css'
 import { motion } from 'framer-motion'
 
 export default function Contact() {
-    
+
 
     return (
         <motion.div
@@ -21,9 +21,13 @@ export default function Contact() {
                 opacity: 1
             }}
             id="contact"
-            className={styles.container}>
+            className={styles.container}
+        >
+
             <SendMessage />
             <Socials />
+
+
         </motion.div>
     )
 }

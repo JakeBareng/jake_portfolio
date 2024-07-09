@@ -4,12 +4,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: var(--global-padding);
     width: var(--global-width);
     border-radius: var(--global-border-radius);
     height: fit-content;
     background-color: var(--primary-color);
     box-shadow: var(--global-box-shadow);
+    padding-top: var(--global-padding);
 }
 
 .title {
@@ -20,23 +20,15 @@
 }
 
 .container {
-    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    padding-bottom: var(--global-padding);
 }
 
 
 .card_container {
     display: flex;
     flex-direction: column;
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-        overflow-y: hidden;
-        align-items: flex-start;
-    }
 }

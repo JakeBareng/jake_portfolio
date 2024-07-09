@@ -1,6 +1,6 @@
 a {
     text-decoration: none;
-    width: 100%;
+    width: var(--global-width);
 }
 
 .container {

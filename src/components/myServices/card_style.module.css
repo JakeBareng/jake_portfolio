@@ -1,20 +1,9 @@
 .container {
-    padding: var(--global-padding);
     border-radius: var(--global-border-radius);
     background-color: var(--secondary-color);
     box-shadow: var(--global-box-shadow);
-    width: 90%;
+    width: var(--global-width);
     margin: auto;
-    margin-bottom: 12px;
-}
-
-@media screen and (max-width: 768px){
-    .container {
-        padding: 20px;
-        width: var(--global-width);
-        height: fit-content;
-        margin: 0 auto;
-    } 
 }
 
 .img_container {
@@ -34,14 +23,13 @@
 
 .heading {
     display: flex;
-    justify-content: start;
     align-items: center;
+    padding: var(--global-padding);
+    padding-bottom: 0;
     gap: 10px;
-    width: 100%;
 }
 
 .title {
-    font-size: xx-large;
     font-weight: 100;
     font-family: "Public_Sans";
     color: var(--font-primary-color);
@@ -52,4 +40,6 @@
     font-size: 1.2rem;
     color: var(--font-secondary-color);
     font-family: "Public_Sans";
+    margin: 0;
+    padding: var(--global-padding);
 }

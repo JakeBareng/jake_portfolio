@@ -1,18 +1,20 @@
 .section_container {
-    text-align: center;
     height: fit-content;
     background-color: var(--primary-color);
     width: var(--global-width);
-    padding: var(--global-padding);
     border-radius: var(--global-border-radius);
     display: flex;
     flex-direction: column;
     gap: 30px;
     box-shadow: var(--global-box-shadow);
+    padding-top: var(--global-padding);
+    padding-bottom: var(--global-padding);
 }
 
 .title {
-    font-size: 2.25rem;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 3em;
     font-weight: 100;
     font-family: "Raleway", sans-serif;
     color: var(--font-primary-color);
@@ -27,7 +29,6 @@
     overflow: hidden;
     margin: auto;
     gap: 30px;
-    padding: var(--global-padding);
 }
 
 .icon_container {

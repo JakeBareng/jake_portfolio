@@ -83,27 +83,15 @@ export default function MyServices() {
 
             <h3 className={styles.title}>Services</h3>
 
-            <motion.div
-                variants={container}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                className={styles.container}
-            >
+            <div className={styles.container}>
                 {
                     services_list.map((data, index) => {
                         return (
-                            <motion.div
-                                variants={item}
-                                key={index}
-                                className={styles.card}
-                            >
-                                <Card data={data} key={index} />
-                            </motion.div>
+                            <Card data={data} key={index} />
                         )
                     })
                 }
-            </motion.div>
+            </div>
         </motion.section>
     )
 }

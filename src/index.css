@@ -13,7 +13,6 @@
     src: local('Raleway-VariableFont_wght'), url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
 
-
 :root {
     --font-primary-color: rgb(245 245 248);
     --font-secondary-color: rgb(171 171 171);
@@ -32,6 +31,8 @@
     }
 
 }
+
+
 
 h3,
 main,

@@ -1,10 +1,8 @@
-
-
 .container {
     display: flex;
-    margin: auto;
-    width: calc(var(--global-width) + var(--global-padding) * 2);
-    gap: var(--global-padding);
+    margin: 0 auto;
+    width: var(--global-width);
+    gap: 20px;
 }
 
 

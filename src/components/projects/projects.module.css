@@ -1,7 +1,6 @@
 .container {
     width: var(--global-width);
     background-color: var(--primary-color);
-    padding: var(--global-padding);
     border-radius: var(--global-border-radius);
     box-shadow: var(--global-box-shadow);
     height: fit-content;
@@ -18,12 +17,13 @@
     align-items: center;
     gap: 20px;
     width: 100%;
-    margin-bottom: 10px;
+    padding: var(--global-padding);
+    padding-top: 0;
 }
 
 .title {
     font-family: "Raleway";
     font-weight: 100;
-    font-size: 3rem;
+    font-size: 3em;
     color: var(--font-primary-color);
 }
