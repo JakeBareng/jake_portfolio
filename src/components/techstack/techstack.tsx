@@ -1,22 +1,9 @@
 import { icon_data } from "./icondata"
 import styles from "./carousel_style.module.css"
-import { motion } from "framer-motion"
 
 export default function TechStack() {
     return (
-        <motion.section
-            initial={{
-                opacity: 0,
-                y: -100
-            }}
-            transition={{
-                delay: 0.5,
-            }}
-            whileInView={{
-                y: 0,
-                opacity: 1
-            }}
-            viewport={{once: true}}
+        <section
             id="techstack" className={styles.section_container}>
             <h3 className={styles.title}>My Tools</h3>
             <div className={styles.container}>
@@ -57,6 +44,6 @@ export default function TechStack() {
                     }
                 </div>
             </div>
-        </motion.section>
+        </section>
     )
 }

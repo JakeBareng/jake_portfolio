@@ -5,7 +5,6 @@ import headphone from "/headphone.svg"
 import window_icon from "/window.svg"
 import web from "/web.svg"
 import Card from "./card"
-import { motion } from "framer-motion"
 
 export type MyServicesProps = {
     img_url: string,
@@ -45,20 +44,7 @@ export default function MyServices() {
 
 
     return (
-        <motion.section
-            initial={{
-                opacity: 0,
-                y: -100
-            }}
-            transition={{
-                delay: 0.5,
-            }}
-            whileInView={{
-                y: 0,
-                opacity: 1
-            }}
-            viewport={{ once: true }}
-
+        <section
             id="myservices" className={styles.section}>
 
             <h3 className={styles.title}>Services</h3>
@@ -72,6 +58,6 @@ export default function MyServices() {
                     })
                 }
             </div>
-        </motion.section>
+        </section>
     )
 }

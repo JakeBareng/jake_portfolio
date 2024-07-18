@@ -71,3 +71,11 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+        padding-top: var(--global-padding);
+        padding-bottom: calc(var(--global-padding) - 20px);
+    }
+    
+}
