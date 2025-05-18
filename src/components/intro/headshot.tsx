@@ -1,6 +1,4 @@
-import headshot1 from '../../assets/headshot_1.png';
 import headshot2 from '../../assets/headshot_2.png';
-import headshot3 from '../../assets/headshot_3.png';
 import styles from "./headshot_styles.module.css"
 import { motion } from "framer-motion"
 
