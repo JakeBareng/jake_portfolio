@@ -18,9 +18,9 @@
 }
 
 .img_collection {
-    position: relative;
-    display: flex;
-    flex-direction: row;
+    /* position: relative; */
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 @media screen and (max-width: 768px) {
