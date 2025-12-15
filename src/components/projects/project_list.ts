@@ -1,7 +1,7 @@
 import music_app from "../../assets/images/project_images/music_app.png"
 import chatroom_app from "../../assets/images/project_images/chatroom_app.png"
 import DJ_landing_page from "../../assets/images/project_images/DJ_landing_page.png"
-import {ProjectType} from "../../types/project_list.ts";
+import ProjectType from "../../types/projectList.ts";
 
 export const projects: ProjectType[]  = [
     {

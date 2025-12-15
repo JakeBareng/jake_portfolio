@@ -1,5 +1,5 @@
-import { ProjectType } from "./project_list"
 import styles from "./project_card.module.css"
+import ProjectType from "../../types/projectList.ts";
 
 export default function Project_card({ project }: { project: ProjectType }) {
     return (
