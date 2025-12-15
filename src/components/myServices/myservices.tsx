@@ -1,5 +1,4 @@
 import styles from "./services_style.module.css"
-import cloud from "/cloud.svg"
 import database from "/database.svg"
 import headphone from "/headphone.svg"
 import window_icon from "/window.svg"
@@ -24,11 +23,6 @@ export default function MyServices() {
             img_url: window_icon,
             title: "Software Development",
             body: "Building scalable, maintainable, and efficient software solutions tailored to specific business needs. My expertise in various programming languages and frameworks ensures robust applications with clean code and comprehensive testing for reliable performance."
-        },
-        {
-            img_url: cloud,
-            title: "Cloud Computing",
-            body: "Leveraging cloud services to deploy, manage, and scale applications. Proficient in platforms like Amazon Web Service, and Google Cloud, I provide flexible, secure, and cost-efficient solutions for both migrating existing systems and building new cloud-native applications."
         },
         {
             img_url: database,
